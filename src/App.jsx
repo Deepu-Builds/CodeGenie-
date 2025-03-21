@@ -52,7 +52,7 @@ function App() {
     <div className={`min-h-screen ${darkMode ? "dark bg-gray-900" : "bg-gray-100"} transition-colors duration-200`}>
       <div className="container mx-auto px-4 py-8 mb-24">
         <div className="flex justify-between items-center mb-8">
-          <h1 className="text-4xl font-bold text-blue-600">AI Code Assistant</h1>
+          <h1 className="text-4xl font-bold text-blue-600">Code Genie</h1>
           <button
             onClick={() => setDarkMode(!darkMode)}
             className="p-3 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
